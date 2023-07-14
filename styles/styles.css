@@ -1,0 +1,33 @@
+.header .header-nav {
+  text-align: right;
+}
+.header-eci {
+  width: 400px;
+  height: 100px;
+}
+
+.menu.list {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  padding-left: 30%;
+}
+
+main .select {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  list-style: none;
+  justify-content: space-around;
+  background-color: greenyellow;
+}
+main-destinationscerdena {
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+footer footer.info.list {
+  display: flex;
+  list-style: none;
+}/*# sourceMappingURL=styles.css.map */

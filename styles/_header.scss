@@ -1,0 +1,20 @@
+$primary-color: #173623;
+
+.header{
+
+.header-nav{
+   
+    text-align: right;
+}
+
+ &-eci{
+    width: 400px;
+    height: 100px;
+    }
+}
+.menu.list{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 30%;
+}

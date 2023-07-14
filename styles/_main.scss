@@ -1,0 +1,19 @@
+main{
+
+    .select{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        list-style: none;
+        justify-content: space-around;
+        background-color: greenyellow;
+    }       
+    &-destinations{
+
+    &cerdena{
+        display: inline-flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}
+}
