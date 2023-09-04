@@ -1,19 +1,137 @@
-main{
+/* styles.scss */
 
-    .select{
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: row;
-        list-style: none;
-        justify-content: space-around;
-        background-color: greenyellow;
-    }       
-    &-destinations{
-
-    &cerdena{
-        display: inline-flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-    }
+body {
+  margin: 0;
 }
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+}
+
+.menu-list {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.menu-list li {
+  color: grey;
+}
+
+.menu-list li:hover {
+  color: darkblue;
+  text-decoration: underline;
+}
+
+.main-options {
+  justify-content: space-around;
+}
+
+.select {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  border-top: solid grey 1px;
+}
+
+.select-destiny:hover {
+  color: lightgrey;
+}
+.select-destiny-one {
+  color: black;
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
+}
+.select-destiny-one:hover {
+  text-decoration: underline 2px green;
+}
+
+.select-destiny {
+  color: white;
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+  border: green($color: #159204) solid 1px;
+  background-color: #159204;
+  padding: 9px;
+}
+
+.destinations {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 12px;
+}
+
+.fotoVacaciones {
+  width: 600px;
+  height: 300px;
+}
+
+.cerdena {
+  flex: 0 0 calc(45% - 1px);
+  background-color: #f0f0f0;
+  margin-bottom: 20px;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.card {
+  color: black;
+}
+
+.precio {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 300px;
+}
+
+.moreInfo {
+  border: solid 1px;
+  padding: 10px;
+  color: green;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  background-color: green;
+  padding: 20px;
+  color: white;
+  height: auto;
+}
+
+.footer-info {
+  background-color: green;
+  margin-right: 40px;
+}
+
+.footer-info h4 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.footer-info-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 20px;
+}
+.footer-info-countries {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 20px;
+  line-height: 35px;
+  column-count: 2;
+}
+
+.footer-info-list li {
+  line-height: 35px;
 }
